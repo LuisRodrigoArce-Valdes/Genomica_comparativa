@@ -1,0 +1,208 @@
+Physical cores: 6
+Logical cores:  12
+Memory:         14.9GB
+Extensions:     AVX
+
+WARNING: Partition DATA: Sequences Ischnura_graellsii and Ischnura_saharensis are identical
+WARNING: MSA has not enough sites to infer reliable results
+Validating binary checkpoint
+OK!
+--------------------------------------------------------------------------------
+ModelTest-NG vx.y.z
+
+Input data:
+  MSA:        ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            25
+  #sites:           2552
+  #patterns:        260
+  Max. thread mem:  3 MB
+
+Output:
+  Log:           ../results/01_modeltest/ITS.model.txt.log
+  Starting tree: ../results/01_modeltest/ITS.model.txt.tree
+  Results:       ../results/01_modeltest/ITS.model.txt.out
+
+Selection options:
+  # dna schemes:      11
+  # dna models:       88
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: true
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          4/6
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+modeltest was called as follows: 
+>> modeltest-ng -i ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta -p 4 -o ../results/01_modeltest/ITS.model.txt --force 
+
+
+Partition 1/1
+
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:00:00
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TPM2+I+G4          4     -5382.9895     11149.7282         0.0000    0.4304
+       2  K80+I+G4           3     -5387.0536     11150.0248         0.2966    0.3711
+       3  TPM1+I+G4          4     -5384.3825     11152.5143         2.7861    0.1069
+       4  TPM3+I+G4          4     -5384.9210     11153.5912         3.8630    0.0624
+       5  TIM2ef+I+G4        5     -5382.8468     11157.2746         7.5464    0.0099
+       6  TrNef+I+G4         4     -5386.9509     11157.6510         7.9228    0.0082
+       7  TVMef+I+G4         6     -5379.3463     11158.1051         8.3769    0.0065
+       8  TIM1ef+I+G4        5     -5384.3845     11160.3499        10.6217    0.0021
+       9  TIM3ef+I+G4        5     -5384.7718     11161.1244        11.3962    0.0014
+      10  TPM2uf+I+G4        7     -5377.7818     11162.8077        13.0796    0.0006
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              TPM2+I+G4
+lnL:                -5382.9895
+Frequencies:        0.2444 0.2435 0.2780 0.2341
+Subst. Rates:       1.7094 2.5794 1.7094 1.0000 2.5794 1.0000 
+Inv. sites prop:    0.6016
+Gamma shape:        0.5684
+Score:              11149.7282
+Weight:             0.4304
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        0.0008
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.7628
+Alpha:              0.1270
+Alpha-P.Inv:        0.6695
+P.Inv-Alpha:        0.6296
+Frequencies:        0.2447 0.2415 0.2754 0.2384 
+
+Commands:
+  > phyml  -i ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta -m 010212 -f 0.25,0.25,0.25,0.25 -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta -m GTRGAMMAI -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta --model TPM2+I+G4
+  > paup -s ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta
+  > iqtree -s ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta -m TPM2+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TVM+I+G4           9     -5374.3422     10856.6845         0.0000    0.4865
+       2  GTR+I+G4          10     -5374.2638     10858.5275         1.8431    0.1936
+       3  TPM2uf+I+G4        7     -5377.7818     10859.5636         2.8792    0.1153
+       4  TIM2+I+G4          8     -5377.2744     10860.5489         3.8644    0.0705
+       5  TVMef+I+G4         6     -5379.3463     10860.6926         4.0082    0.0656
+       6  SYM+I+G4           7     -5379.3104     10862.6208         5.9364    0.0250
+       7  TPM2+I+G4          4     -5382.9895     10863.9789         7.2945    0.0127
+       8  TPM1uf+I+G4        7     -5380.7231     10865.4462         8.7618    0.0061
+       9  TIM2ef+I+G4        5     -5382.8468     10865.6937         9.0092    0.0054
+      10  TIM1+I+G4          8     -5380.1178     10866.2357         9.5512    0.0041
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              TVM+I+G4
+lnL:                -5374.3422
+Frequencies:        0.2433 0.2449 0.2764 0.2354
+Subst. Rates:       1.2891 2.6611 2.3860 0.9761 2.6611 1.0000 
+Inv. sites prop:    0.5813
+Gamma shape:        0.5429
+Score:              10856.6845
+Weight:             0.4865
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        0.8836
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.7414
+Alpha:              0.1363
+Alpha-P.Inv:        0.5569
+P.Inv-Alpha:        0.5841
+Frequencies:        0.2438 0.2437 0.2768 0.2357 
+
+Commands:
+  > phyml  -i ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta -m 012314 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta --model TVM+I+G4
+  > paup -s ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta
+  > iqtree -s ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta -m TVM+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TVM+I+G4           9     -5374.3422     10858.6845         0.0000    0.4807
+       2  GTR+I+G4          10     -5374.2638     10860.5275         1.8431    0.1913
+       3  TPM2uf+I+G4        7     -5377.7818     10861.5636         2.8792    0.1139
+       4  TIM2+I+G4          8     -5377.2744     10862.5489         3.8644    0.0696
+       5  TVMef+I+G4         6     -5379.3463     10862.6926         4.0082    0.0648
+       6  SYM+I+G4           7     -5379.3104     10864.6208         5.9364    0.0247
+       7  TPM2+I+G4          4     -5382.9895     10864.9789         6.2945    0.0207
+       8  TPM1uf+I+G4        7     -5380.7231     10867.4462         8.7618    0.0060
+       9  TIM2ef+I+G4        5     -5382.8468     10867.6937         9.0092    0.0053
+      10  TPM1+I+G4          4     -5384.3825     10867.7650         9.0806    0.0051
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              TVM+I+G4
+lnL:                -5374.3422
+Frequencies:        0.2433 0.2449 0.2764 0.2354
+Subst. Rates:       1.2891 2.6611 2.3860 0.9761 2.6611 1.0000 
+Inv. sites prop:    0.5813
+Gamma shape:        0.5429
+Score:              10858.6845
+Weight:             0.4807
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        0.8731
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.7421
+Alpha:              0.1362
+Alpha-P.Inv:        0.5578
+P.Inv-Alpha:        0.5846
+Frequencies:        0.2438 0.2437 0.2768 0.2357 
+
+Commands:
+  > phyml  -i ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta -m 012314 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta --model TVM+I+G4
+  > paup -s ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta
+  > iqtree -s ../../02_Alineamientos/results/04_Aligned_Concatenated/ITS.fasta -m TVM+I+G4
+Summary:
+
+Partition 1/1:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC           TPM2+I+G4    11149.7282        0.4304
+       AIC            TVM+I+G4    10856.6845        0.4865
+      AICc            TVM+I+G4    10858.6845        0.4807
+
+Execution results written to ../results/01_modeltest/ITS.model.txt.out
+Starting tree written to ../results/01_modeltest/ITS.model.txt.tree

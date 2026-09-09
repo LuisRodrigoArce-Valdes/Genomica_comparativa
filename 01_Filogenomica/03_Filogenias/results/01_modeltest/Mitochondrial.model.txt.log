@@ -1,0 +1,208 @@
+Physical cores: 6
+Logical cores:  12
+Memory:         14.9GB
+Extensions:     AVX
+
+WARNING: Partition DATA: Sequences Ischnura_elegans and Ischnura_graellsii are identical
+WARNING: MSA has not enough sites to infer reliable results
+Validating binary checkpoint
+OK!
+--------------------------------------------------------------------------------
+ModelTest-NG vx.y.z
+
+Input data:
+  MSA:        ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            45
+  #sites:           2716
+  #patterns:        473
+  Max. thread mem:  10 MB
+
+Output:
+  Log:           ../results/01_modeltest/Mitochondrial.model.txt.log
+  Starting tree: ../results/01_modeltest/Mitochondrial.model.txt.tree
+  Results:       ../results/01_modeltest/Mitochondrial.model.txt.out
+
+Selection options:
+  # dna schemes:      11
+  # dna models:       88
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: true
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          4/6
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+modeltest was called as follows: 
+>> modeltest-ng -i ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta -p 4 -o ../results/01_modeltest/Mitochondrial.model.txt --force 
+
+
+Partition 1/1
+
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:00:00
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TIM2+I+G4          8    -10514.4302     21759.4981         0.0000    0.9889
+       2  GTR+I+G4          10    -10511.0746     21768.4995         9.0014    0.0110
+       3  TrN+I+G4           7    -10528.2532     21779.2878        19.7898    0.0000
+       4  TPM2uf+I+G4        7    -10528.3811     21779.5437        20.0456    0.0000
+       5  TIM3+I+G4          8    -10527.6723     21785.9824        26.4843    0.0000
+       6  TIM1+I+G4          8    -10528.1561     21786.9499        27.4518    0.0000
+       7  HKY+I+G4           6    -10536.1444     21787.2140        27.7159    0.0000
+       8  TVM+I+G4           9    -10525.7412     21789.9764        30.4783    0.0000
+       9  TPM1uf+I+G4        7    -10536.0196     21794.8206        35.3225    0.0000
+      10  TPM3uf+I+G4        7    -10536.5739     21795.9293        36.4312    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              TIM2+I+G4
+lnL:                -10514.4302
+Frequencies:        0.3613 0.1398 0.1468 0.3520
+Subst. Rates:       4.1749 21.5840 4.1749 1.0000 48.7159 1.0000 
+Inv. sites prop:    0.6107
+Gamma shape:        1.1072
+Score:              21759.4981
+Weight:             0.9889
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6559
+Alpha:              0.1604
+Alpha-P.Inv:        1.1084
+P.Inv-Alpha:        0.6109
+Frequencies:        0.3614 0.1398 0.1468 0.3520 
+
+Commands:
+  > phyml  -i ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta -m 010232 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta --model TIM2+I+G4
+  > paup -s ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta
+  > iqtree -s ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta -m TIM2+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -10511.0746     21212.1491         0.0000    0.7950
+       2  TIM2+I+G4          8    -10514.4302     21214.8604         2.7112    0.2050
+       3  TVM+I+G4           9    -10525.7412     21239.4824        27.3332    0.0000
+       4  TrN+I+G4           7    -10528.2532     21240.5064        28.3573    0.0000
+       5  TPM2uf+I+G4        7    -10528.3811     21240.7623        28.6132    0.0000
+       6  TIM3+I+G4          8    -10527.6723     21241.3446        29.1955    0.0000
+       7  TIM1+I+G4          8    -10528.1561     21242.3122        30.1630    0.0000
+       8  HKY+I+G4           6    -10536.1444     21254.2889        42.1397    0.0000
+       9  TPM1uf+I+G4        7    -10536.0196     21256.0392        43.8901    0.0000
+      10  TPM3uf+I+G4        7    -10536.5739     21257.1479        44.9987    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -10511.0746
+Frequencies:        0.3633 0.1381 0.1444 0.3542
+Subst. Rates:       3.2398 14.1429 2.3920 0.0576 31.3458 1.0000 
+Inv. sites prop:    0.6291
+Gamma shape:        1.2150
+Score:              21212.1491
+Weight:             0.7950
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6567
+Alpha:              0.1603
+Alpha-P.Inv:        1.1929
+P.Inv-Alpha:        0.6254
+Frequencies:        0.3629 0.1384 0.1449 0.3538 
+
+Commands:
+  > phyml  -i ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta --model GTR+I+G4
+  > paup -s ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta
+  > iqtree -s ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta -m GTR+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -10511.0746     21219.1491         0.0000    0.7950
+       2  TIM2+I+G4          8    -10514.4302     21221.8604         2.7112    0.2050
+       3  TVM+I+G4           9    -10525.7412     21246.4824        27.3332    0.0000
+       4  TrN+I+G4           7    -10528.2532     21246.5064        27.3573    0.0000
+       5  TPM2uf+I+G4        7    -10528.3811     21246.7623        27.6132    0.0000
+       6  TIM3+I+G4          8    -10527.6723     21248.3446        29.1955    0.0000
+       7  TIM1+I+G4          8    -10528.1561     21249.3122        30.1630    0.0000
+       8  HKY+I+G4           6    -10536.1444     21260.2889        41.1397    0.0000
+       9  TPM1uf+I+G4        7    -10536.0196     21262.0392        42.8901    0.0000
+      10  TPM3uf+I+G4        7    -10536.5739     21263.1479        43.9987    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              GTR+I+G4
+lnL:                -10511.0746
+Frequencies:        0.3633 0.1381 0.1444 0.3542
+Subst. Rates:       3.2398 14.1429 2.3920 0.0576 31.3458 1.0000 
+Inv. sites prop:    0.6291
+Gamma shape:        1.2150
+Score:              21219.1491
+Weight:             0.7950
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6566
+Alpha:              0.1604
+Alpha-P.Inv:        1.1929
+P.Inv-Alpha:        0.6254
+Frequencies:        0.3629 0.1384 0.1449 0.3538 
+
+Commands:
+  > phyml  -i ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta --model GTR+I+G4
+  > paup -s ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta
+  > iqtree -s ../../02_Alineamientos/results/04_Aligned_Concatenated/Mitochondrial.fasta -m GTR+I+G4
+Summary:
+
+Partition 1/1:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC           TIM2+I+G4    21759.4981        0.9889
+       AIC            GTR+I+G4    21212.1491        0.7950
+      AICc            GTR+I+G4    21219.1491        0.7950
+
+Execution results written to ../results/01_modeltest/Mitochondrial.model.txt.out
+Starting tree written to ../results/01_modeltest/Mitochondrial.model.txt.tree
