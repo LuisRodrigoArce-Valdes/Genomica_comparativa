@@ -32,3 +32,4 @@ Adicionalmente en el directorio principal de cada tema encontrarás las diaposit
 
 Si tienes cualquier duda u observación con respecto al contenido de este repositorio, no dudes en hacermelo saber. Mándame un correo a `bio.l.rodrigo.arce@gmail.com`.
  
+ ![Kiki](./Images/Kiki.jpg)
