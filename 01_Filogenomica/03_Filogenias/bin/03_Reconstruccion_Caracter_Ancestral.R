@@ -83,11 +83,11 @@ is.matrix(fitER$lik.anc)
 fitER$lik.anc[fitER$lik.anc < 0] <- 0
 
 # Grafiquemoslo!
-plotTree(tree,fsize=0.7,ftype="i",lwd=1)
+plotTree(tree,fsize=1,ftype="i",lwd=1)
 nodelabels(node=1:tree$Nnode+Ntip(tree),
-           pie=fitER$lik.anc,piecol=cols,cex=0.4)
+           pie=fitER$lik.anc,piecol=cols,cex=0.2)
 tiplabels(pie=to.matrix(ischnura[tree$tip.label],
-                        levels(ischnura)),piecol=cols,cex=0.3)
+                        levels(ischnura)),piecol=cols,cex=0.1)
 add.simmap.legend(colors=cols,prompt=FALSE,x=0.9*par()$usr[1],
                   y=0.8*par()$usr[3],fsize=0.8)
 
