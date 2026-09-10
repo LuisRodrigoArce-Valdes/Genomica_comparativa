@@ -23,7 +23,7 @@ En este modulo utilizaremos múltiples programas para realizar un análisis filo
 - [MEGA](https://www.megasoftware.net/)
 - [figtree](https://tree.bio.ed.ac.uk/software/figtree/)
 
-**Dado que muchas herramientas son instaladas con conda solo es indispensable que tengas instalado R, Rstudio, conda y MEGA para iniciar el curso.**
+**Dado que muchas herramientas son instaladas con conda solo es indispensable que tengas instalado R, Rstudio, e-utilities, conda y MEGA para iniciar el curso.**
 
 En los scripts de cada análisis encontrarás comentarios con información adicional para instalar los software que utilizaremos.
 
