@@ -1,0 +1,10 @@
+strain,plasmid_accession,gene_feature,virulence_associated
+SM181-4,KY362372,"Inner membrane protein forms channel for type IV secretion of T-DNA complex, VirB3",T4SS
+SM109-18,CP006257,Hypothetical protein,NA
+SM1038-14,KY362372,Hypothetical protein,NA
+SM205-2,KY362372,"Coupling protein VirD4, ATPase required for T-DNA transfer",T4SS
+SM1042-14R,KY362372,Hypothetical protein,NA
+SM914-13,KY362372,"Error-prone, lesion bypass DNA polymerase V (UmuC)",NA
+SM04-2018-04,CP006257,"ISPpu14, transposase Orf2",NA
+SM191-1,KY362372,Methyl-accepting chemotaxis protein I (serine chemoreceptor protein),NA
+SM207-3,KY362372,Hypothetical protein,NA

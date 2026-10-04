@@ -1,0 +1,251 @@
+gene_family,expected_frequency_class,functional_category,description,data_status
+PG0023,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0132,shell,defense/resistance,Teaching cluster-associated defense/resistance family (T4),SIMULATED teaching annotation
+PG0225,cloud,secretion-associated,Teaching rare secretion-associated family,SIMULATED teaching annotation
+PG0048,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0065,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0005,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0197,cloud,surface structure,Teaching rare surface structure family,SIMULATED teaching annotation
+PG0167,shell,surface structure,Teaching accessory surface structure family,SIMULATED teaching annotation
+PG0019,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0219,cloud,regulation,Teaching rare regulation family,SIMULATED teaching annotation
+PG0037,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0067,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0183,cloud,hypothetical protein,Teaching rare hypothetical protein family,SIMULATED teaching annotation
+PG0051,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0030,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0096,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0131,shell,secretion-associated,Teaching cluster-associated secretion-associated family (T4),SIMULATED teaching annotation
+PG0186,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0190,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0098,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0076,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0002,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0145,shell,regulation,Teaching accessory regulation family,SIMULATED teaching annotation
+PG0072,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0045,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0046,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0025,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0022,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0050,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0164,shell,regulation,Teaching accessory regulation family,SIMULATED teaching annotation
+PG0228,cloud,secondary metabolism,Teaching rare secondary metabolism family,SIMULATED teaching annotation
+PG0006,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0185,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0059,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0242,cloud,stress response,Teaching rare stress response family,SIMULATED teaching annotation
+PG0133,shell,secondary metabolism,Teaching cluster-associated secondary metabolism family (T4),SIMULATED teaching annotation
+PG0184,cloud,hypothetical protein,Teaching rare hypothetical protein family,SIMULATED teaching annotation
+PG0057,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0042,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0205,cloud,secretion-associated,Teaching rare secretion-associated family,SIMULATED teaching annotation
+PG0173,shell,mobile element,Teaching accessory mobile element family,SIMULATED teaching annotation
+PG0152,shell,stress response,Teaching accessory stress response family,SIMULATED teaching annotation
+PG0129,shell,secretion-associated,Teaching cluster-associated secretion-associated family (T3),SIMULATED teaching annotation
+PG0138,shell,stress response,Teaching cluster-associated stress response family (T5),SIMULATED teaching annotation
+PG0060,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0233,cloud,regulation,Teaching rare regulation family,SIMULATED teaching annotation
+PG0049,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0031,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0169,shell,transport,Teaching accessory transport family,SIMULATED teaching annotation
+PG0160,shell,hypothetical protein,Teaching accessory hypothetical protein family,SIMULATED teaching annotation
+PG0078,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0200,cloud,secretion-associated,Teaching rare secretion-associated family,SIMULATED teaching annotation
+PG0066,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0153,shell,defense/resistance,Teaching accessory defense/resistance family,SIMULATED teaching annotation
+PG0250,cloud,defense/resistance,Teaching rare defense/resistance family,SIMULATED teaching annotation
+PG0077,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0035,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0070,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0130,shell,mobile element,Teaching cluster-associated mobile element family (T4),SIMULATED teaching annotation
+PG0111,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0157,shell,transport,Teaching accessory transport family,SIMULATED teaching annotation
+PG0087,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0009,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0238,cloud,secondary metabolism,Teaching rare secondary metabolism family,SIMULATED teaching annotation
+PG0134,shell,secondary metabolism,Teaching cluster-associated secondary metabolism family (T4),SIMULATED teaching annotation
+PG0123,shell,hypothetical protein,Teaching cluster-associated hypothetical protein family (T2),SIMULATED teaching annotation
+PG0094,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0073,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0041,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0099,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0020,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0177,shell,regulation,Teaching accessory regulation family,SIMULATED teaching annotation
+PG0126,shell,secondary metabolism,Teaching cluster-associated secondary metabolism family (T3),SIMULATED teaching annotation
+PG0003,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0084,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0083,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0112,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0150,shell,secretion-associated,Teaching accessory secretion-associated family,SIMULATED teaching annotation
+PG0056,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0085,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0187,cloud,secondary metabolism,Teaching rare secondary metabolism family,SIMULATED teaching annotation
+PG0168,shell,transport,Teaching accessory transport family,SIMULATED teaching annotation
+PG0149,shell,stress response,Teaching accessory stress response family,SIMULATED teaching annotation
+PG0013,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0012,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0029,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0207,cloud,regulation,Teaching rare regulation family,SIMULATED teaching annotation
+PG0191,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0071,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0036,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0086,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0069,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0124,shell,hypothetical protein,Teaching cluster-associated hypothetical protein family (T2),SIMULATED teaching annotation
+PG0146,shell,secondary metabolism,Teaching accessory secondary metabolism family,SIMULATED teaching annotation
+PG0092,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0220,cloud,secondary metabolism,Teaching rare secondary metabolism family,SIMULATED teaching annotation
+PG0248,cloud,hypothetical protein,Teaching rare hypothetical protein family,SIMULATED teaching annotation
+PG0196,cloud,secretion-associated,Teaching rare secretion-associated family,SIMULATED teaching annotation
+PG0159,shell,surface structure,Teaching accessory surface structure family,SIMULATED teaching annotation
+PG0079,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0117,shell,secretion-associated,Teaching cluster-associated secretion-associated family (T1),SIMULATED teaching annotation
+PG0061,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0047,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0198,cloud,secondary metabolism,Teaching rare secondary metabolism family,SIMULATED teaching annotation
+PG0218,cloud,surface structure,Teaching rare surface structure family,SIMULATED teaching annotation
+PG0176,shell,secretion-associated,Teaching accessory secretion-associated family,SIMULATED teaching annotation
+PG0091,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0243,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0166,shell,hypothetical protein,Teaching accessory hypothetical protein family,SIMULATED teaching annotation
+PG0151,shell,mobile element,Teaching accessory mobile element family,SIMULATED teaching annotation
+PG0063,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0010,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0249,cloud,secretion-associated,Teaching rare secretion-associated family,SIMULATED teaching annotation
+PG0182,cloud,regulation,Teaching rare regulation family,SIMULATED teaching annotation
+PG0193,cloud,defense/resistance,Teaching rare defense/resistance family,SIMULATED teaching annotation
+PG0180,cloud,transport,Teaching rare transport family,SIMULATED teaching annotation
+PG0125,shell,transport,Teaching cluster-associated transport family (T3),SIMULATED teaching annotation
+PG0116,shell,transport,Teaching cluster-associated transport family (T1),SIMULATED teaching annotation
+PG0244,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0007,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0015,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0121,shell,transport,Teaching cluster-associated transport family (T2),SIMULATED teaching annotation
+PG0024,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0192,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0074,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0040,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0107,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0008,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0170,shell,mobile element,Teaching accessory mobile element family,SIMULATED teaching annotation
+PG0223,cloud,secretion-associated,Teaching rare secretion-associated family,SIMULATED teaching annotation
+PG0229,cloud,transport,Teaching rare transport family,SIMULATED teaching annotation
+PG0026,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0136,shell,transport,Teaching cluster-associated transport family (T5),SIMULATED teaching annotation
+PG0148,shell,stress response,Teaching accessory stress response family,SIMULATED teaching annotation
+PG0156,shell,defense/resistance,Teaching accessory defense/resistance family,SIMULATED teaching annotation
+PG0178,shell,transport,Teaching accessory transport family,SIMULATED teaching annotation
+PG0154,shell,defense/resistance,Teaching accessory defense/resistance family,SIMULATED teaching annotation
+PG0236,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0247,cloud,secondary metabolism,Teaching rare secondary metabolism family,SIMULATED teaching annotation
+PG0089,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0110,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0195,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0033,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0202,cloud,secretion-associated,Teaching rare secretion-associated family,SIMULATED teaching annotation
+PG0016,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0231,cloud,defense/resistance,Teaching rare defense/resistance family,SIMULATED teaching annotation
+PG0017,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0106,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0068,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0241,cloud,secondary metabolism,Teaching rare secondary metabolism family,SIMULATED teaching annotation
+PG0162,shell,hypothetical protein,Teaching accessory hypothetical protein family,SIMULATED teaching annotation
+PG0034,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0211,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0175,shell,mobile element,Teaching accessory mobile element family,SIMULATED teaching annotation
+PG0064,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0163,shell,hypothetical protein,Teaching accessory hypothetical protein family,SIMULATED teaching annotation
+PG0109,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0101,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0097,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0038,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0004,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0120,shell,regulation,Teaching cluster-associated regulation family (T2),SIMULATED teaching annotation
+PG0141,shell,mobile element,Teaching accessory mobile element family,SIMULATED teaching annotation
+PG0011,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0199,cloud,stress response,Teaching rare stress response family,SIMULATED teaching annotation
+PG0237,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0235,cloud,stress response,Teaching rare stress response family,SIMULATED teaching annotation
+PG0043,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0114,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0028,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0214,cloud,surface structure,Teaching rare surface structure family,SIMULATED teaching annotation
+PG0210,cloud,surface structure,Teaching rare surface structure family,SIMULATED teaching annotation
+PG0102,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0080,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0088,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0113,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0158,shell,secretion-associated,Teaching accessory secretion-associated family,SIMULATED teaching annotation
+PG0171,shell,surface structure,Teaching accessory surface structure family,SIMULATED teaching annotation
+PG0104,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0032,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0216,cloud,secondary metabolism,Teaching rare secondary metabolism family,SIMULATED teaching annotation
+PG0140,shell,mobile element,Teaching accessory mobile element family,SIMULATED teaching annotation
+PG0108,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0203,cloud,hypothetical protein,Teaching rare hypothetical protein family,SIMULATED teaching annotation
+PG0143,shell,defense/resistance,Teaching accessory defense/resistance family,SIMULATED teaching annotation
+PG0240,cloud,surface structure,Teaching rare surface structure family,SIMULATED teaching annotation
+PG0135,shell,transport,Teaching cluster-associated transport family (T5),SIMULATED teaching annotation
+PG0052,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0179,shell,defense/resistance,Teaching accessory defense/resistance family,SIMULATED teaching annotation
+PG0081,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0075,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0222,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0245,cloud,hypothetical protein,Teaching rare hypothetical protein family,SIMULATED teaching annotation
+PG0082,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0213,cloud,stress response,Teaching rare stress response family,SIMULATED teaching annotation
+PG0014,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0232,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0208,cloud,regulation,Teaching rare regulation family,SIMULATED teaching annotation
+PG0027,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0234,cloud,regulation,Teaching rare regulation family,SIMULATED teaching annotation
+PG0246,cloud,defense/resistance,Teaching rare defense/resistance family,SIMULATED teaching annotation
+PG0103,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0039,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0044,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0230,cloud,defense/resistance,Teaching rare defense/resistance family,SIMULATED teaching annotation
+PG0021,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0001,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0155,shell,defense/resistance,Teaching accessory defense/resistance family,SIMULATED teaching annotation
+PG0217,cloud,transport,Teaching rare transport family,SIMULATED teaching annotation
+PG0144,shell,surface structure,Teaching accessory surface structure family,SIMULATED teaching annotation
+PG0239,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0100,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0189,cloud,hypothetical protein,Teaching rare hypothetical protein family,SIMULATED teaching annotation
+PG0119,shell,defense/resistance,Teaching cluster-associated defense/resistance family (T1),SIMULATED teaching annotation
+PG0215,cloud,hypothetical protein,Teaching rare hypothetical protein family,SIMULATED teaching annotation
+PG0128,shell,secondary metabolism,Teaching cluster-associated secondary metabolism family (T3),SIMULATED teaching annotation
+PG0142,shell,regulation,Teaching accessory regulation family,SIMULATED teaching annotation
+PG0055,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0224,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0188,cloud,secretion-associated,Teaching rare secretion-associated family,SIMULATED teaching annotation
+PG0137,shell,defense/resistance,Teaching cluster-associated defense/resistance family (T5),SIMULATED teaching annotation
+PG0105,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0206,cloud,stress response,Teaching rare stress response family,SIMULATED teaching annotation
+PG0212,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0058,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0161,shell,transport,Teaching accessory transport family,SIMULATED teaching annotation
+PG0226,cloud,stress response,Teaching rare stress response family,SIMULATED teaching annotation
+PG0054,core,translation/ribosome,Teaching translation/ribosome family,SIMULATED teaching annotation
+PG0018,core,amino-acid metabolism,Teaching amino-acid metabolism family,SIMULATED teaching annotation
+PG0181,cloud,surface structure,Teaching rare surface structure family,SIMULATED teaching annotation
+PG0147,shell,secretion-associated,Teaching accessory secretion-associated family,SIMULATED teaching annotation
+PG0227,cloud,defense/resistance,Teaching rare defense/resistance family,SIMULATED teaching annotation
+PG0115,shell,mobile element,Teaching cluster-associated mobile element family (T1),SIMULATED teaching annotation
+PG0090,core,cell envelope,Teaching cell envelope family,SIMULATED teaching annotation
+PG0062,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0165,shell,surface structure,Teaching accessory surface structure family,SIMULATED teaching annotation
+PG0122,shell,defense/resistance,Teaching cluster-associated defense/resistance family (T2),SIMULATED teaching annotation
+PG0095,core,transcription,Teaching transcription family,SIMULATED teaching annotation
+PG0174,shell,hypothetical protein,Teaching accessory hypothetical protein family,SIMULATED teaching annotation
+PG0127,shell,mobile element,Teaching cluster-associated mobile element family (T3),SIMULATED teaching annotation
+PG0209,cloud,defense/resistance,Teaching rare defense/resistance family,SIMULATED teaching annotation
+PG0194,cloud,mobile element,Teaching rare mobile element family,SIMULATED teaching annotation
+PG0204,cloud,stress response,Teaching rare stress response family,SIMULATED teaching annotation
+PG0053,core,DNA replication/repair,Teaching DNA replication/repair family,SIMULATED teaching annotation
+PG0139,shell,hypothetical protein,Teaching cluster-associated hypothetical protein family (T5),SIMULATED teaching annotation
+PG0201,cloud,transport,Teaching rare transport family,SIMULATED teaching annotation
+PG0221,cloud,surface structure,Teaching rare surface structure family,SIMULATED teaching annotation
+PG0093,core,central metabolism,Teaching central metabolism family,SIMULATED teaching annotation
+PG0118,shell,secondary metabolism,Teaching cluster-associated secondary metabolism family (T1),SIMULATED teaching annotation
+PG0172,shell,secretion-associated,Teaching accessory secretion-associated family,SIMULATED teaching annotation

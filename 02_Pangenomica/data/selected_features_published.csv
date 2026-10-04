@@ -1,0 +1,9 @@
+feature,category,reported_genomes_present,total_genomes
+pilA / flp,motility,7,16
+algJ,biofilm,9,16
+shlA / hecA / fhaA,biofilm / adhesion,13,16
+T4SS,secretion system,10,16
+T6SS variable genes,secretion system,14,16
+T1SS ATPase,secretion system,11,16
+T5SS tpsB family gene,secretion system,13,16
+variable copper-resistance genes,antimicrobial resistance,6,16

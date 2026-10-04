@@ -1,0 +1,17 @@
+strain,genome_size_bp,contigs,gc_percent,busco_percent,n50_bp,completeness_percent,contamination_percent,predicted_genes,disease_lesions_7dpi_reported,severity_class_reported,teaching_cluster_NOT_PUBLISHED,data_status
+SM04-2018-04,5960405,79,59.17,100,534491,100,0.11,5108,,,T5,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM1030-14,6135699,152,58.98,99.32,193480,99.68,0.43,5300,,,T2,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM1031-4,6159242,293,58.98,99.32,145934,99.68,0.43,5370,,,T2,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM1038-14,6045224,132,58.97,99.32,205021,100,0.11,5166,213.8,high,T1,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM1042-14R,6057882,235,59.01,100,129352,100,0.47,5272,136.2,high,T1,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM109-18,5964538,95,59.17,100,350263,100,0.6,5117,,,T3,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM155-18,5954342,61,59.17,100,339735,100,0.14,5103,,,T3,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM156-18,5982996,307,59.08,99.32,112094,99.68,0.47,5303,22.6,low,T4,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM181-4,6026070,110,59.0,100,193779,100,0.43,5165,,,T2,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM190-8,5951629,95,59.11,100,275109,100,0.43,5104,,,T2,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM191-1,6034096,124,58.99,99.32,205037,100,0.43,5171,,,T3,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM205-2,6026772,112,59.01,99.32,164342,100,0.43,5166,,,T5,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM207-3,6026178,100,59.01,100,205037,100,0.43,5155,213.1,high,T1,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM226-1,5956914,185,59.07,99.32,146860,99.68,0.11,5216,0.0,low,T4,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM51-19,5953602,92,59.1,100,305681,100,0.6,5101,168.0,high,T1,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
+SM914-13,6326320,185,59.14,98.65,208630,100,0.43,5585,26.2,low,T5,Genome statistics and listed disease values are published; teaching_cluster is simulated for this exercise
