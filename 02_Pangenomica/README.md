@@ -16,4 +16,4 @@ conda install jupyterlab numpy pandas scipy matplotlib
 jupyter lab
 ```
 
- ![Dendograma de genomas](./results/Fig4_published_feature_frequencies.png)
+ ![Pseudomonas leaf spot](../Images/pls.jpg)
